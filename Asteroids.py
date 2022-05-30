@@ -26,9 +26,9 @@ pygame.display.set_caption("Asteeeeriods Mirzoev")
 timer = pygame.time.Clock()
 
 # загрузка изображений
-gif_surf = [pygame.image.load("Asteroids/gif/1.png").convert_alpha(), pygame.image.load("Asteroids/gif/2.png").convert_alpha(), pygame.image.load("Asteroids/gif/3.png").convert_alpha(), pygame.image.load("Asteroids/gif/4.png").convert_alpha(), pygame.image.load("Asteroids/gif/5.png").convert_alpha(), 
-pygame.image.load("Asteroids/gif/6.png").convert_alpha(), pygame.image.load("Asteroids/gif/7.png").convert_alpha(), pygame.image.load("Asteroids/gif/8.png").convert_alpha(), pygame.image.load("Asteroids/gif/9.png").convert_alpha(), pygame.image.load("Asteroids/gif/10.png").convert_alpha(), 
-pygame.image.load("Asteroids/gif/11.png").convert_alpha(), pygame.image.load("Asteroids/gif/12.png").convert_alpha(), pygame.image.load("Asteroids/gif/13.png").convert_alpha(), pygame.image.load("Asteroids/gif/14.png").convert_alpha()]
+gif_surf = [pygame.image.load("gif/1.png").convert_alpha(), pygame.image.load("gif/2.png").convert_alpha(), pygame.image.load("gif/3.png").convert_alpha(), pygame.image.load("gif/4.png").convert_alpha(), pygame.image.load("gif/5.png").convert_alpha(),
+pygame.image.load("gif/6.png").convert_alpha(), pygame.image.load("gif/7.png").convert_alpha(), pygame.image.load("gif/8.png").convert_alpha(), pygame.image.load("gif/9.png").convert_alpha(), pygame.image.load("gif/10.png").convert_alpha(),
+pygame.image.load("gif/11.png").convert_alpha(), pygame.image.load("gif/12.png").convert_alpha(), pygame.image.load("gif/13.png").convert_alpha(), pygame.image.load("gif/14.png").convert_alpha()]
 
 def drawWindow():
     global animCount
